@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/index.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
         crossorigin="anonymous">
     </script>
@@ -24,7 +23,7 @@
 <body class="bgimg bodycol">
 
     <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-card w3-border-bottom w3-small w3-hide-small w3-center" style="width:80px">
+    <div id="sidebar" class="w3-sidebar w3-bar-block w3-card w3-border-bottom w3-small w3-hide-small w3-center" style="width:80px">
         <!-- Avatar image in top left corner -->
         <img src="img/logo_plain.png" style="width:90%">
         <a href="#" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
@@ -47,16 +46,16 @@
             <i class="fa fa-newspaper w3-xlarge"></i>
             <p>PRESS KIT</p>
         </a>
-    </nav>
+    </div>
 
-    <div class="bar">
+    <div id="topbar" class="bar">
         <div class="w3-bar w3-hide-large w3-hide-medium">
             <img src="img/logo_plain.png" style="height:40px; padding-left:20px;">
             <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right" onclick="myFunction()">&#9776;</a>
         </div>
 
         <div id="myNavBar" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
-            <a href="#" class="w3-bar-item w3-button w3-border-bottom">HOME</a>
+            <a href="#" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">HOME</a>
             <a href="#about" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">ABOUT</a>
             <a href="#gallery" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">GALLERY</a>
             <a href="#contact" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">CONTACT</a>
@@ -229,5 +228,5 @@
     </div>
 
 </body>
-
+<script src="js/index.js"></script>
 </html>

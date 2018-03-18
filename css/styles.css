@@ -27,10 +27,6 @@ h6 {
     width: 100%;
 }
 
-.active {
-    background-color: #4CAF50;
-}
-
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 
 #main {
