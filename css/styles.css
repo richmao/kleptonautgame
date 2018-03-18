@@ -5,7 +5,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif
+    font-family: "Aldrich", sans-serif
 }
 
 .w3-row-padding img {
@@ -16,13 +16,13 @@ h6 {
 
 .w3-sidebar {
     width: 120px;
-    background: #222;
+    background: rgb(41, 32, 51);
 }
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 
 #main {
-    margin-left: 120px
+    margin-left: 80px
 }
 
 /* Remove margins from "page content" on small screens */
