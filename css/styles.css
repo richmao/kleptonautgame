@@ -19,8 +19,16 @@ h6 {
     background: rgb(41, 32, 51);
 }
 
-.w3-bar {
+.bar {
     background: rgb(41, 32, 51);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
