@@ -49,16 +49,29 @@
         }
     }
 
- .bgimg {
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-image: url("img/galaxy_bg.jpg");
-     min-height:90%;
-}
-.bodycol {
-    background-color: #3c3d3e;
-    color: white;
-}
+    @media only screen and (min-width: 992px) {
+        .w3-half {
+            width: 50%
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .w3-half {
+            width: 100%
+        }
+    }
+
+    .bgimg {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("img/galaxy_bg.jpg");
+        min-height: 90%;
+    }
+
+    .bodycol {
+        background-color: #3c3d3e;
+        color: white;
+    }
 </style>
 
 <body class="bgimg bodycol">
@@ -103,33 +116,39 @@
     <!-- Page Content -->
     <div id="main">
         <!-- Header/Home -->
-    <header class="w3-display-container w3-center" id="home">
-        <img src="img/banner.jpg" alt="boy" class="w3-image" width="100%" height="1108">
+        <header class="w3-display-container w3-center" id="home">
+            <img src="img/banner.jpg" alt="boy" class="w3-image" width="100%" height="1108">
             <h2>Coming
                 <b>June 2018</b>
             </h2>
             <div class="w3-xlarge">
                 <a href="https://www.facebook.com/KleptonautGame">
-                    <i class="fab fa-facebook w3-hover-opacity"></a></i>
-                
+                    <i class="fab fa-facebook w3-hover-opacity">
+                </a>
+                </i>
+
                 <a href="https://www.instagram.com/kleptonautgame/">
-                    <i class="fab fa-instagram w3-hover-opacity"></a></i>
-                
+                    <i class="fab fa-instagram w3-hover-opacity">
+                </a>
+                </i>
+
                 <a href="https://twitter.com/KleptonautGame">
-                    <i class="fab fa-twitter w3-hover-opacity"></a></i>
-                
+                    <i class="fab fa-twitter w3-hover-opacity">
+                </a>
+                </i>
+
             </div>
             <!--<img src="img/banner.jpg" alt="boy" class="w3-image" width="992" height="1108">-->
         </header>
-    <div class="w3-padding-large">
-        <!-- About Section -->
-        <div class="w3-content w3-text-white w3-padding-64" id="about">
-            <h2 class="w3-text-light-grey">About</h2>
-            <hr style="width:200px" class="w3-opacity">
-        <h3>Kleptonaut is a single player top-down action puzzle game for the PC. Play as a space bandit in a zero-gravity world collecting as much loot as you
-            can while throwing them to propel yourself around.
-        </h3>
-            <!--<h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        <div class="w3-padding-large">
+            <!-- About Section -->
+            <div class="w3-content w3-text-white w3-padding-64" id="about">
+                <h2 class="w3-text-light-grey">About</h2>
+                <hr style="width:200px" class="w3-opacity">
+                <h3>Kleptonaut is a single player top-down action puzzle game for the PC. Play as a space bandit in a zero-gravity
+                    world collecting as much loot as you can while throwing them to propel yourself around.
+                </h3>
+                <!--<h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
             <p class="w3-wide">Photography</p>
             <div class="w3-white">
                 <div class="w3-dark-grey" style="height:28px;width:95%"></div>
@@ -206,125 +225,142 @@
                 <!-- End Grid/Pricing tables 
             </div>-->
 
-            <!-- Team -->
-            <h2 class="w3-text-light-grey" style="padding-top:32px">Space Bandit Studios</h2>
-            <hr style="width:200px" class="w3-opacity">
-            <div class="w3-half">
-            <img src="img/nick.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-            <p>
-                <span class="w3-large w3-margin-right">Nick Warren</span> Lead Level Designer</p>
-            <p>
-                <a href="http://www.nickwarren.info">Portfolio</a> | <a href="https://www.linkedin.com/in/nick-warren-5a7441bb/">Linkedin</a></p>
-            <br>
+                <!-- Team -->
+                <h2 class="w3-text-light-grey" style="padding-top:32px">Space Bandit Studios</h2>
+                <hr style="width:200px" class="w3-opacity">
+                <div class="w3-half">
+                    <img src="img/nick.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                    <p>
+                        <span class="w3-large w3-margin-right">Nick Warren</span>
+                        <br>Lead Level Designer</p>
+                    <p>
+                        <a href="http://www.nickwarren.info">Portfolio</a> |
+                        <a href="https://www.linkedin.com/in/nick-warren-5a7441bb/">Linkedin</a>
+                    </p>
+                    <br>
 
-            <img src="img/richard.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-            <p>
-                <span class="w3-large w3-margin-right">Richard Mao</span> Lead Producer</p>
-            <p>
-                <a href="https://www.linkedin.com/in/richmao/">Linkedin</a> |
-                <a href="https://twitter.com/richcatmao">Twitter</a> |
-                <a href="https://github.com/richmao">Github</a>
-            </p>
-            <br>
+                    <img src="img/richard.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                    <p>
+                        <span class="w3-large w3-margin-right">Richard Mao</span>
+                        <br>Lead Producer</p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/richmao/">Linkedin</a> |
+                        <a href="https://twitter.com/richcatmao">Twitter</a> |
+                        <a href="https://github.com/richmao">Github</a>
+                    </p>
+                    <br>
 
-            <img src="img/james.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-            <p>
-                <span class="w3-large w3-margin-right">James Thomason</span> Lead Gameplay Designer</p>
-            <p>
-                <a href="https://www.linkedin.com/in/james-thomason-9114a9139/">Linkedin</a></p>
-            <br>
-            
-            <img src="img/luke.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-            <p>
-                <span class="w3-large w3-margin-right">Luke Lai</span> Lead Developer</p>
-            <p>
-                <a href="https://www.linkedin.com/in/lukeelai/">Linkedin</a>
-            </p>
-            <br>
-            </div>
+                    <img src="img/james.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                    <p>
+                        <span class="w3-large w3-margin-right">James Thomason</span>
+                        <br>Lead Gameplay Designer</p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/james-thomason-9114a9139/">Linkedin</a>
+                    </p>
+                    <br>
 
-            <div class="w3-half">
-            <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-            <p>
-                <span class="w3-large w3-margin-right">Wesley Wu</span> 3D Artist</p>
-            <p>No one is better than Jane Doe.</p>
-            <br>
-            <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-            <p>
-                <span class="w3-large w3-margin-right">Christina Hanson</span> Graphic Designer</p>
-            <p>No one is better than Jane Doe.</p>
-            <br>
+                    <img src="img/luke.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                    <p>
+                        <span class="w3-large w3-margin-right">Luke Lai</span>
+                        <br>Lead Developer</p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/lukeelai/">Linkedin</a>
+                    </p>
+                    <br>
+                </div>
 
-            <img src="img/jeff.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-            <p>
-                <span class="w3-large w3-margin-right">Jeff Shields</span> Composer</p>
-            <p>
-                <a href="http://kleptonaut.com/">Bandcamp</a> |
-                <a href="https://soundcloud.com/kleptonaut">Soundcloud</a>
-            </p>
-            </div>
+                <div class="w3-half">
+                    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                    <p>
+                        <span class="w3-large w3-margin-right">Wesley Wu</span>
+                        <br>3D Artist</p>
+                    <p>No one is better than Jane Doe.</p>
+                    <br>
+                    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                    <p>
+                        <span class="w3-large w3-margin-right">Christina Hanson</span>
+                        <br>Graphic Designer</p>
+                    <p>No one is better than Jane Doe.</p>
+                    <br>
 
-            <div class="w3-padding-32 w3-center">
-                <a class="twitter-timeline" data-width="600" data-height="700" data-dnt="true" data-theme="dark" href="https://twitter.com/KleptonautGame?ref_src=twsrc%5Etfw">Tweets by KleptonautGame</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
+                    <img src="img/jeff.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                    <p>
+                        <span class="w3-large w3-margin-right">Jeff Shields</span>
+                        <br>Composer</p>
+                    <p>
+                        <a href="http://kleptonaut.com/">Bandcamp</a> |
+                        <a href="https://soundcloud.com/kleptonaut">Soundcloud</a>
+                    </p>
+                    <br>
+                </div>
+
+                <div class="w3-padding-32 w3-center">
+                    <a class="twitter-timeline" data-width="600" data-height="700" data-dnt="true" data-theme="dark" href="https://twitter.com/KleptonautGame?ref_src=twsrc%5Etfw">Tweets by KleptonautGame</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
                 <!-- End About Section -->
-        </div>
-
-        <!-- Portfolio Section -->
-        <div class="w3-padding-64 w3-content" id="gallery">
-            <h2 class="w3-text-light-grey">Gallery</h2>
-            <hr style="width:200px" class="w3-opacity">
-
-            <!-- Grid for photos -->
-            <div class="w3-row-padding" style="margin:0 -16px">
-                <div class="w3-half">
-                    <img src="/w3images/wedding.jpg" style="width:100%">
-                    <img src="/w3images/rocks.jpg" style="width:100%">
-                    <img src="/w3images/sailboat.jpg" style="width:100%">
-                </div>
-
-                <div class="w3-half">
-                    <img src="/w3images/underwater.jpg" style="width:100%">
-                    <img src="/w3images/chef.jpg" style="width:100%">
-                    <img src="/w3images/wedding.jpg" style="width:100%">
-                    <img src="/w3images/p6.jpg" style="width:100%">
-                </div>
-                <!-- End photo grid -->
             </div>
-            <!-- End Portfolio Section -->
-        </div>
 
-        <!-- Contact Section -->
-        <div class="w3-padding-64 w3-content w3-text-white" id="contact">
-            <h2 class="w3-text-light-grey">Contact</h2>
-            <hr style="width:200px" class="w3-opacity">
+            <!-- Portfolio Section -->
+            <div class="w3-padding-64 w3-content" id="gallery">
+                <h2 class="w3-text-light-grey">Gallery</h2>
+                <hr style="width:200px" class="w3-opacity">
 
-            <div class="w3-section">
-                <p>
-                    <i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Santa Cruz, CA</p>
-                <p>
-                    <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: spacebanditgame@gmail.com</p>
+                <!-- Grid for photos -->
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half">
+                        <img src="/w3images/wedding.jpg" style="width:100%">
+                        <img src="/w3images/rocks.jpg" style="width:100%">
+                        <img src="/w3images/sailboat.jpg" style="width:100%">
+                    </div>
+
+                    <div class="w3-half">
+                        <img src="/w3images/underwater.jpg" style="width:100%">
+                        <img src="/w3images/chef.jpg" style="width:100%">
+                        <img src="/w3images/wedding.jpg" style="width:100%">
+                        <img src="/w3images/p6.jpg" style="width:100%">
+                    </div>
+                    <!-- End photo grid -->
+                </div>
+                <!-- End Portfolio Section -->
             </div>
-            <!-- End Contact Section -->
-        </div>
 
-        <!-- Footer -->
-        <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge w3-center">
-            <a href="https://www.facebook.com/KleptonautGame">
-                <i class="fab fa-facebook w3-hover-opacity"></a></i>
-            
-            <a href="https://www.instagram.com/kleptonautgame/">
-                <i class="fab fa-instagram w3-hover-opacity"></a></i>
-            
-            <a href="https://twitter.com/KleptonautGame">
-                <i class="fab fa-twitter w3-hover-opacity"></a></i>
-            
-            <p class="w3-medium">Powered by
-                <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a>
-            </p>
-            <!-- End footer -->
-        </footer>
+            <!-- Contact Section -->
+            <div class="w3-padding-64 w3-content w3-text-white" id="contact">
+                <h2 class="w3-text-light-grey">Contact</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <div class="w3-section">
+                    <p>
+                        <i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Santa Cruz, CA</p>
+                    <p>
+                        <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: spacebanditgame@gmail.com</p>
+                </div>
+                <!-- End Contact Section -->
+            </div>
+
+            <!-- Footer -->
+            <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge w3-center">
+                <a href="https://www.facebook.com/KleptonautGame">
+                    <i class="fab fa-facebook w3-hover-opacity">
+                </a>
+                </i>
+
+                <a href="https://www.instagram.com/kleptonautgame/">
+                    <i class="fab fa-instagram w3-hover-opacity">
+                </a>
+                </i>
+
+                <a href="https://twitter.com/KleptonautGame">
+                    <i class="fab fa-twitter w3-hover-opacity">
+                </a>
+                </i>
+
+                <p class="w3-medium">Powered by
+                    <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a>
+                </p>
+                <!-- End footer -->
+            </footer>
         </div>
         <!-- END PAGE CONTENT -->
     </div>
