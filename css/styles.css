@@ -51,7 +51,7 @@ h6 {
 .bgimg {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("img/galaxy_bg.jpg");
+    background-image: url("./img/galaxy_bg.jpg");
     min-height: 90%;
 }
 
