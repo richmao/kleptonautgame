@@ -19,6 +19,10 @@ h6 {
     background: rgb(41, 32, 51);
 }
 
+.w3-bar {
+    background: rgb(41, 32, 51);
+}
+
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 
 #main {
@@ -30,9 +34,6 @@ h6 {
 @media only screen and (max-width: 600px) {
     #main {
         margin-left: 0
-    }
-    header {
-        padding-top: 32px;
     }
 }
 
