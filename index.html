@@ -30,13 +30,13 @@
             <i class="fa fa-home w3-xlarge"></i>
             <p>HOME</p>
         </a>
-        <a href="#about" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
-            <i class="fas fa-gamepad w3-xlarge"></i>
-            <p>ABOUT</p>
-        </a>
         <a href="#gallery" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
             <i class="fas fa-images w3-xlarge"></i>
             <p>GALLERY</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
+            <i class="fas fa-users w3-xlarge"></i>
+            <p>TEAM</p>
         </a>
         <a href="#contact" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
             <i class="fa fa-envelope w3-xlarge"></i>
@@ -52,8 +52,8 @@
 
         <div id="myNavBar" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
             <a href="#" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">HOME</a>
-            <a href="#about" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">ABOUT</a>
             <a href="#gallery" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">GALLERY</a>
+            <a href="#about" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">TEAM</a>
             <a href="#contact" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">CONTACT</a>
         </div>
     </div>
@@ -63,7 +63,7 @@
         <!-- Header/Home -->
         <header class="w3-display-container w3-center" id="home">
             <img src="img/banner.jpg" alt="galaxy banner" class="w3-image" width="100%" height="1108">
-            <h2>Coming
+            <h2>Coming to Mac/PC
                 <b>June 2018</b>
             </h2>
             <div class="w3-xlarge">
@@ -102,15 +102,40 @@
         </header>
         <div class="w3-padding-large">
             <!-- About Section -->
-            <div class="w3-content w3-text-white w3-padding-64" id="about">
+            <div class="w3-content w3-text-white w3-padding-64">
                 <h2 class="w3-text-light-grey ">About</h2>
                 <hr style="width:200px" class="w3-opacity">
-                <h3>Kleptonaut is a single player top-down action puzzle game for the PC. Play as a space bandit in a zero-gravity
-                    world collecting as much loot as you can while throwing them to propel yourself around.
+                <h3>Kleptonaut is a game about robbing stores in zero-gravity. Pick up and throw items to propel yourself, solve puzzles, and wreak havoc in Nova-Mart's numerous establishments.
                 </h3>
+            </div>
 
-                <!-- Team -->
-                <h2 class="w3-text-light-grey" style="padding-top:32px">Space Bandit Studios</h2>
+            <!-- Portfolio Section -->
+            <div class="w3-padding-64 w3-content" id="gallery">
+                <h2 class="w3-text-light-grey">Gallery</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <!-- Grid for photos -->
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half">
+                        <img src="img/kleptonaut1.png" alt="screenshot" style="width:100%">
+                        <img src="img/kleptonaut2.png" alt="screenshot" style="width:100%">
+                    </div>
+                    <div class="w3-half">
+                        <img src="img/kleptonaut3.png" alt="screenshot" style="width:100%">
+                        <img src="img/kleptonaut4.png" alt="screenshot" style="width:100%">
+                    </div>
+                    <!-- End photo grid -->
+                </div>
+
+                <div class="w3-padding-32 w3-center">
+                    <a class="twitter-timeline" data-width="600" data-height="700" data-dnt="true" data-theme="dark" href="https://twitter.com/KleptonautGame?ref_src=twsrc%5Etfw">Tweets by KleptonautGame</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <!-- End Portfolio Section -->
+            </div>
+
+            <div class="w3-content w3-text-white w3-padding-64" id="about">
+                <h2 class="w3-text-light-grey" style="padding-top:32px">Space Bandit Studio</h2>
                 <hr style="width:200px" class="w3-opacity">
                 <div class="w3-half">
                     <img src="img/nick.png" alt="nick" class="w3-left w3-circle w3-margin-right" style="width:80px">
@@ -183,32 +208,7 @@
                     </p>
                     <br>
                 </div>
-
-                <div class="w3-padding-32 w3-center">
-                    <a class="twitter-timeline" data-width="600" data-height="700" data-dnt="true" data-theme="dark" href="https://twitter.com/KleptonautGame?ref_src=twsrc%5Etfw">Tweets by KleptonautGame</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
                 <!-- End About Section -->
-            </div>
-
-            <!-- Portfolio Section -->
-            <div class="w3-padding-64 w3-content" id="gallery">
-                <h2 class="w3-text-light-grey">Gallery</h2>
-                <hr style="width:200px" class="w3-opacity">
-
-                <!-- Grid for photos -->
-                <div class="w3-row-padding" style="margin:0 -16px">
-                    <div class="w3-half">
-                        <img src="img/kleptonaut1.png" alt="screenshot" style="width:100%">
-                        <img src="img/kleptonaut2.png" alt="screenshot" style="width:100%">
-                    </div>
-                    <div class="w3-half">
-                        <img src="img/kleptonaut3.png" alt="screenshot" style="width:100%">
-                        <img src="img/kleptonaut4.png" alt="screenshot" style="width:100%">
-                    </div>
-                    <!-- End photo grid -->
-                </div>
-                <!-- End Portfolio Section -->
             </div>
 
             <!-- Contact Section -->
@@ -242,7 +242,7 @@
                 <a href="https://twitter.com/KleptonautGame" class="icon-link">
                     <i class="fab fa-twitter w3-hover-opacity"></i>
                 </a>
-                <p class="w3-medium">Space Bandit Studios / All Rights Reserved</p>
+                <p class="w3-medium">2018 Space Bandit Studio / All Rights Reserved</p>
                 <!-- End footer -->
             </footer>
         </div>

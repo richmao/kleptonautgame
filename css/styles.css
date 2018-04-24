@@ -63,13 +63,14 @@ h6 {
 
 .bgimg {
     background-repeat: repeat-x;
-    background-size: auto 100%;
+    background-size: 100% 84%;
     background-image: url("../img/galaxy_bg.jpg");
+    background-position: 0% 100%;
     min-height: 90%;
 }
 
 .bodycol {
-    background-color: #3c3d3e;
+    background-color: #18454a;
     color: white;
 }
 
