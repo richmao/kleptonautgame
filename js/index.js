@@ -6,3 +6,11 @@ function myFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+function scrollToElement(element) {
+    document.getElementById(element).scrollIntoView({
+        behavior: 'smooth',
+        block: "start",
+        inline: "nearest"
+    });
+}

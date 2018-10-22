@@ -36,23 +36,23 @@
     <div id="sidebar" class="w3-sidebar w3-bar-block w3-card w3-border-bottom w3-small w3-hide-small w3-center" style="width:95px">
         <!-- Avatar image in top left corner -->
         <img src="img/logo_plain.png" alt="logo" style="width:90%">
-        <a href="#" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
+        <a class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey" onclick="scrollToElement('main')">
             <i class="fa fa-home w3-xlarge"></i>
             <p>HOME</p>
         </a>
-        <a href="#about" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
+        <a class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey" onclick="scrollToElement('about')">
             <i class="fas fa-gamepad w3-xlarge"></i>
             <p>ABOUT</p>
         </a>
-        <a href="#gallery" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
+        <a class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey" onclick="scrollToElement('gallery')">
             <i class="fas fa-images w3-xlarge"></i>
             <p>GALLERY</p>
         </a>
-        <a href="#team" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
+        <a class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey" onclick="scrollToElement('team')">
             <i class="fas fa-users w3-xlarge"></i>
             <p>TEAM</p>
         </a>
-        <a href="#devlog" class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey">
+        <a class="w3-bar-item w3-button w3-padding-small w3-hover-dark-grey" onclick="scrollToElement('devlog')">
             <i class="fas fa-list w3-xlarge"></i>
             <p>DEVLOG</p>
         </a>
@@ -73,13 +73,13 @@
         </div>
 
         <div id="myNavBar" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
-            <a href="#" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">HOME</a>
-            <a href="#about" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">ABOUT</a>
-            <a href="#gallery" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">GALLERY</a>
-            <a href="#team" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">TEAM</a>
-            <a href="#devlog" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">DEVLOG</a>
+            <a class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction(); scrollToElement('main');">HOME</a>
+            <a class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction(); scrollToElement('about');">ABOUT</a>
+            <a class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction(); scrollToElement('gallery');">GALLERY</a>
+            <a class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction(); scrollToElement('team');">TEAM</a>
+            <a class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction(); scrollToElement('devlog')">DEVLOG</a>
             <a href="https://space-bandit-studio.itch.io/kleptonaut/community" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">COMMUNITY</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction()">CONTACT</a>
+            <a class="w3-bar-item w3-button w3-border-bottom" onclick="myFunction(); scrollToElement('contact');">CONTACT</a>
         </div>
     </div>
 
@@ -87,7 +87,7 @@
     <div id="main">
         <!-- Header/Home -->
         <header class="w3-center" id="home">
-            <img src="img/banner.png" alt="galaxy banner" class="w3-image" width="100%" height="1108">
+            <img src="img/banner.jpg" alt="galaxy banner" class="w3-image" width="100%" height="1108">
                 
 
             <div class="w3-xlarge w3-padding-32 w3-center">
